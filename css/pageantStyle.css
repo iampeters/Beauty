@@ -1,0 +1,247 @@
+/* CSS Document */
+body{
+	margin: 0 !important;
+	font-size: 14pt;
+}
+.container-fluid{
+	padding: 0 !important;
+	background: #f5f5f5 !important;
+/*	background: url(../images/bg2.png) !important;
+*/}
+.content{
+	width: 40%;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	color: white;
+	font: 500 50pt karla;
+}
+.content hr{
+	width: 50%;
+}
+.content p{
+	font: 500 16pt karla;
+}
+.content h1{
+	font: 500 50pt karla;
+}
+a, a:hover, a:visited, a:link, a:active{
+	text-decoration: none !important;
+	color: #fefefe !important;
+	font-size: 16px !important;
+}
+.btn{
+	box-shadow: inset 0 1px 1px rgba(255,255,255,.5) !important;
+	text-shadow: 1px 0 1px #333;
+}
+.nav li a:hover{
+	color: #eee !important;
+	background: #222721 !important;
+}
+.nav li a{
+	padding: 10px 5px !important;
+	text-shadow: 1px 0 1px #333;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.page-header{
+	margin: 0px !important;
+	height: 60px !important;
+	padding: 15px !important;
+	background: #222721;
+	position: fixed !important;
+	right: 0;
+	z-index: 100; 	
+	border-bottom: 3px solid #619754 !important;
+	box-shadow: 0 2px 16px 0 rgba(0,0,0, .24);
+}
+.input-group-addon{
+	background: #619754 !important;
+	border: 1px solid #619754 !important;
+	color: #eee !important;
+	font-size: 18px !important;
+}
+.input-group{
+	margin: -2px 0 !important;
+}
+.sign{
+	text-decoration: none;
+	padding: 2px 15px;
+	text-shadow: 0 1px 2px #000;
+	font-family: 'Hp Simplified';
+	font-size: 18px;
+}
+.sign span{
+	color: #f90;
+	text-shadow: none;
+	font-size: 18px;
+}
+.sign:hover{
+	text-decoration: none;
+	color: white;
+}
+.aside{
+	height: 662px;
+	margin: 0;
+	padding-top: 15px;
+	background: #619754;
+	position: fixed !important;
+/*	border-right: 3px solid #f90 !important;
+*/}
+.margin-top{
+	margin-top: 15px;
+}
+.pad{
+	padding: 0 !important;
+}
+.add-pad{
+	padding: 10px !important;
+}
+.add-pad-2{
+	padding: 10px 20px!important;
+}
+.menu {
+	text-align: center;
+	margin-top: 15px;
+	padding: 5px;
+	background: #222721;
+	color: #eee;
+}
+.ul{
+	font-size: 14pt !important;
+	margin-top: 15px;
+	padding: 5px 0;
+	background: #1b1b1b;
+	color: #eee;
+	background: none !important;
+}
+.fa-facebook{
+/*	color: #3b5998;
+*/	font-size: 14pt !important;
+}
+.fa-twitter{
+/*	color: skyblue;*/
+	font-size: 14pt !important;
+}
+.fa-instagram{
+/*	color: #F33;
+*/	font-size: 14pt !important;
+}
+.fa-youtube{
+/*	color: #c00;
+*/	font-size: 14pt !important;
+}
+.top{
+	margin-top: 60px;
+}
+.footer{
+	background: #383b37 !important;
+	height: 250px;
+	text-align: center;
+	padding: 20px 10px;
+	border-top: 3px solid #619754;
+}
+.footer span{
+	font: 500 2em 'Hp Simplified';
+	color: #eee;
+}
+.partners hr{
+	width: 100px;
+	border: 2px solid #619754;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.middle-section{
+	margin-bottom: 30px;
+	}
+footer{
+	background: #222721;
+	text-align: center;
+	color: #619754;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+}
+.nav .fa{
+	color: #000 !important;
+	padding-right: 10px !important;
+}
+.nav li a:hover .fa{
+	color: #eee !important;
+}
+.item img{
+	width: 100% !important;
+}
+.item{
+	overflow: hidden !important;
+	height: 400px !important;
+}
+
+.glyphicon-chevron-right, .glyphicon-chevron-left{
+	color: #fff !important;
+	text-shadow: -1px 1px 16px 0px #333 !important;
+}
+.carousel-indicators li{
+	width: 13px !important;
+	height: 13px !important;
+	border: 1px solid #fff !important;
+}
+.contestant{
+	background: #619754;
+	width: 100%;
+	height: 35px;
+	padding: 10px 5px;
+	color: white;
+	font-family: karla;
+}
+.active{
+}
+.end{
+	height: 2px;
+	background: #619754;
+}
+.margin-bottom{
+	margin-bottom: 15px;
+}
+.reign {
+	background: #fefefe;
+	padding-bottom: 5px;
+}
+.reign hr{
+	border-color: black;
+	width: 100px;
+	margin: 0;
+}
+.contest h4{
+	font: 600 18pt karla;
+	padding: 3px 10px !important;
+}
+.news a{
+	color: #1b1b1b !important;
+}
+.news a:hover{
+	color: #039 !important;
+}
+.bg-white{
+	background: #fefefe;
+	
+} 
+.add-pad:hover h4{
+	color: #619754;
+}
+::-webkit-scrollbar{
+	width: 12px;
+}
+::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,.3);
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background: #222721;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-image: linear-gradient(45deg, #222721 50%, rgba(97,151,84,.76) 50%)
+};
